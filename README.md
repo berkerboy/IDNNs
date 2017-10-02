@@ -12,8 +12,9 @@ IDNNs is a python library that implements training and calculating of informatio
 
 ## Usage
 All the code is under the idnns directory.
-For training a network and calculate the MI and the gradients of it run the an example in[main.py](main.py).
-Off-course that you can also run only specipic methods for running only the training procedure/calculating the MI.
+To train a network and calculate the MI and its gradients run the example in [main.py](main.py).
+Of course  you can also run only specific methods to run only the training procedure/calculating the MI.
+
 This file has command-line arguments as follow - 
  - 'start_samples' - The number of the first sample for calculate the information
  - 'batch_size' - The size of the batch
@@ -36,7 +37,8 @@ This file has command-line arguments as follow -
  - 'cov_net' - True if we want covnet
  - 'rand_labels' - True if we want to set random labels
   - 'data_dir' - The directory for finding the data
-The results are save under the folder jobs. Each run create a directory with a name that contains the run properties. In this directory there are the data.pickle file with the data of run and python file that is a copy of the file that create this run.
+
+The results are save under the folder jobs. Each run creates a directory with a name that contains the run properties. In this directory there is the data.pickle file with the data of run and python file that is a copy of the file that created this run.
 The data is under the data directory. 
 
 For plotting the results we have the file [plot_figures.py](idnns/plot/plot_figures.py). 
